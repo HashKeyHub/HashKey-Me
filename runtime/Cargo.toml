@@ -3,8 +3,8 @@ authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
 edition = '2018'
 homepage = 'https://substrate.io'
 license = 'Unlicense'
-name = 'node-template-runtime'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+name = 'hashkeyme-runtime'
+repository = ''
 version = '2.0.0-rc2'
 
 [package.metadata.docs.rs]
@@ -147,10 +147,10 @@ package = 'frame-system'
 tag = 'v2.0.0-rc2'
 version = '2.0.0-rc2'
 
-[dependencies.template]
+[dependencies.identity]
 default-features = false
-package = 'pallet-template'
-path = '../pallets/template'
+package = 'pallet-identity'
+path = '../pallets/identity'
 version = '2.0.0-rc2'
 
 [dependencies.timestamp]
@@ -194,7 +194,7 @@ std = [
     'system/std',
     'timestamp/std',
     'transaction-payment/std',
-    'template/std',
+    'identity/std',
 ]
 
 [build-dependencies.wasm-builder-runner]
