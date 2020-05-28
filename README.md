@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Substrate Node Template
 
 A new FRAME-based Substrate node, ready for hacking.
@@ -120,6 +121,3 @@ git checkout <branch/tag/sha1>
 #   from the current dir. to output the compressed node template.
 .maintain/node-template-release.sh ../node-template.tar.gz
 ```
-
-Noted though you will likely get faster and more thorough support if you stick with the releases
-provided in this repository.
