@@ -153,6 +153,12 @@ package = 'pallet-identity'
 path = '../pallets/identity'
 version = '2.0.0-rc2'
 
+[dependencies.credentials]
+default-features = false
+package = 'pallet-credentials'
+path = '../pallets/credentials'
+version = '2.0.0-rc2'
+
 [dependencies.timestamp]
 default-features = false
 git = 'https://github.com/paritytech/substrate.git'
